@@ -5,15 +5,15 @@ Serviço de captura/coleta de dados fictícios presentes no endereço (xxxx) e p
 Utilizada versão python 3.7 no desenvolvimento. Para executar o projeto, será necessário instalar os seguintes extensões:
 
 * Requests:> no prompt de comando digite: pip install requests
-  - teste
+  - Biblioteca usada para fazer as requisições HTTP
 * BeatifulSoup:> no prompt de comando digite: pip install beautifulsoup4
-  - teste
+  - Biblioteca usada para capturar as informações das páginas HTML
 * Unidecode:> no prompt de comando digite: pip install Unidecode
-  - teste
+  - Biblioteca usada para remover acentos das strings com os nomes dos candidatos
 * Regex:> no prompt de comando digite: pip install regex
-  - teste
+  - Biblioteca usada no modelo de validação de CPF, serve para procurar por padrões, caracteres em específico em strings
 * SQLite:> no prompt de comando digite: pip install db-sqlite3
-  - teste
+  - Banco de dados usado para armazenamento dos dados capturados
 
 
 ### Desenvolvimento
@@ -24,7 +24,7 @@ git clone https://github.com/marcelocaon/neoway
 python main.py
 
 ### Melhorias e sugestões
-Nos testes feitos o programa leva cerca de 13 horas para fazer todo o processo captura e persistência dos quase 47mil dados fictícios (nome, score, cpf e validação do cpf) no banco de dados. Acredito que se for possível implementar um programa que rode a captura de dados simultâneamente poderia ser diminuido este tempo do processo. Estou pesquisando ainda, não sei se eh possível. Teria de ser avaliado também se é possível fazer multiplas requisições simultâneas ao site que detêm os dados.
+Nos testes feitos o programa leva cerca de 13 horas para fazer todo o processo captura e persistência dos quase 47mil dados fictícios (nome, score, cpf e validação do cpf) no banco de dados. Acredito que se for possível implementar um programa que rode a captura de dados simultâneamente poderia ser diminuido este tempo do processo. Estou pesquisando ainda, não sei se eh possível. Teria de ser avaliado também se é possível fazer multiplas requisições simultâneas ao site que detêm os dados. Outra questão a ser avaliada eh o uso do banco de dados, utilizei o SQLite por ser bem simples, será que um banco mais robusto poderia melhorar a velocidade?
 
 ### Contribuições
 Contribuições são sempre bem-vindas!
