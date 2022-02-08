@@ -8,6 +8,7 @@ Requests:> no prompt de comando digite: pip install requests
 BeatifulSoup:> no prompt de comando digite: pip install beautifulsoup4
 Unidecode:> no prompt de comando digite: pip install Unidecode
 Regex:> no prompt de comando digite: pip install regex
+SQLite:> no prompt de comando digite: pip install db-sqlite3
 
 
 ### Desenvolvimento
