@@ -21,9 +21,9 @@ Quando o programa é iniciado o usuário informa a página que quer começar a c
 ### Desenvolvimento
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:
 
-cd "diretorio de sua preferencia"
-git clone https://github.com/marcelocaon/neoway
-python main.py
+- cd "diretorio de sua preferencia"
+- git clone https://github.com/marcelocaon/neoway
+- python main_v2.py
 
 ### Melhorias e sugestões
 Nos testes feitos o programa leva cerca de 13 horas para fazer todo o processo captura e persistência dos quase 47mil dados fictícios (nome, score, cpf e validação do cpf) no banco de dados. Acredito que se for possível implementar um programa que rode a captura de dados simultâneamente poderia ser diminuido este tempo do processo. Estou pesquisando ainda, não sei se eh possível. Teria de ser avaliado também se é possível fazer multiplas requisições simultâneas ao site que detêm os dados. Outra questão a ser avaliada eh o uso do banco de dados, utilizei o SQLite por ser bem simples, será que um banco mais robusto poderia melhorar a velocidade?
