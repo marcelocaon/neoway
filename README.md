@@ -15,6 +15,8 @@ Utilizada versão python 3.7 no desenvolvimento. Para executar o projeto, será 
 * SQLite:> no prompt de comando digite: pip install db-sqlite3
   - Banco de dados usado para armazenamento dos dados capturados
 
+### Funcionamento
+Quando o programa é iniciado o usuário informa a página que quer começar a captura dos dados, opção feita devido ao tempo de captura ser longo e poder ocorrer algum problema durante, então o usuário pode continuar de onde parou antes porque o sistema vai informando na tela cada página recem capturada.
 
 ### Desenvolvimento
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:
