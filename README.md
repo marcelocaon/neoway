@@ -4,11 +4,16 @@ Serviço de captura/coleta de dados fictícios presentes no endereço (xxxx) e p
 ### Instalação
 Utilizada versão python 3.7 no desenvolvimento. Para executar o projeto, será necessário instalar os seguintes extensões:
 
-Requests:> no prompt de comando digite: pip install requests
-BeatifulSoup:> no prompt de comando digite: pip install beautifulsoup4
-Unidecode:> no prompt de comando digite: pip install Unidecode
-Regex:> no prompt de comando digite: pip install regex
-SQLite:> no prompt de comando digite: pip install db-sqlite3
+* Requests:> no prompt de comando digite: pip install requests
+  - teste
+* BeatifulSoup:> no prompt de comando digite: pip install beautifulsoup4
+  - teste
+* Unidecode:> no prompt de comando digite: pip install Unidecode
+  - teste
+* Regex:> no prompt de comando digite: pip install regex
+  - teste
+* SQLite:> no prompt de comando digite: pip install db-sqlite3
+  - teste
 
 
 ### Desenvolvimento
