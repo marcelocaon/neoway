@@ -68,7 +68,7 @@ if __name__ == '__main__':
         resposta = input(('Voce digitou uma página errada, por favor, digite de 1 a 4671, sendo 1 = a primeira: '))
     if int(resposta) == 1:        
         pagina = 1
-        zerar_banco()
+        banco.zerar_banco()
     else:
         pagina = int(resposta)
 
