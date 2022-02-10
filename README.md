@@ -1,4 +1,4 @@
-# Neoway
+# Case Técnico Neoway
 Serviço de captura/coleta de dados fictícios presentes no endereço (xxxx) e persistência em um banco de dados SQLite.
 
 ### Instalação
