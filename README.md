@@ -17,17 +17,17 @@ Utilizada versão python 3.7 no desenvolvimento. Para executar o projeto, será 
 
 ### Arquivos que compoem o programa
 * main.py
- - Arquivo principal, que contrala a interface e chama as funções necessárias dos outros arquivos
+  - Arquivo principal, que contrala a interface e chama as funções necessárias dos outros arquivos
 * banco.py
- - Arquivo responável pela conexão com o banco, inserindo e apagando dados
+  - Arquivo responável pela conexão com o banco, inserindo e apagando dados
 * validador.py
- - Arquivo responsável pela validação dos campos 'cpf' (caso válido deixa o campo status do banco como vazio ou caso inválido coloca um texto como cpf inválido no campo status do banco) e 'nome' (remove os acentos da string e ainda coloca letra maiuscula somente nas iniciais de cada palavra)
+  - Arquivo responsável pela validação dos campos 'cpf' (caso válido deixa o campo status do banco como vazio ou caso inválido coloca um texto como cpf inválido no campo status do banco) e 'nome' (remove os acentos da string e ainda coloca letra maiuscula somente nas iniciais de cada palavra)
 * neoway.db
- - Arquivo do banco de dados do programa
+  - Arquivo do banco de dados do programa
 * neoway_preenchido.db
- - Exemplo de arquivo do banco de dados preenchido pelo sistema
+  - Exemplo de arquivo do banco de dados preenchido pelo sistema
 * neoway_preenchido2.db
- - Outro exemplo de arquivo do banco de dados preenchido pelo sistema
+  - Outro exemplo de arquivo do banco de dados preenchido pelo sistema
 
 ### Funcionamento
 Quando o programa é iniciado o usuário informa a página que quer começar a captura dos dados, opção feita devido ao tempo de captura ser longo e poder ocorrer algum problema durante, então o usuário pode continuar de onde parou antes porque o sistema vai informando na tela cada página recem capturada.
