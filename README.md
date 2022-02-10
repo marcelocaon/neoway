@@ -26,8 +26,6 @@ Utilizada versão python 3.7 no desenvolvimento. Para executar o projeto, será 
   - Arquivo do banco de dados do programa
 * neoway_preenchido.db
   - Exemplo de arquivo do banco de dados preenchido pelo sistema
-* neoway_preenchido2.db
-  - Outro exemplo de arquivo do banco de dados preenchido pelo sistema
 
 ### Funcionamento
 Quando o programa é iniciado o usuário informa a página que quer começar a captura dos dados, opção feita devido ao tempo de captura ser longo e poder ocorrer algum problema durante, então o usuário pode continuar de onde parou antes porque o sistema vai informando na tela cada página recem capturada.
